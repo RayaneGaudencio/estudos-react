@@ -1,9 +1,9 @@
-import './App.css';
+import { GithubApi } from "./components/Funções/GithubApi";
 
 function App() {
   return (
     <div className="App">
-      <h1>OK</h1>
+      <GithubApi />
     </div>
   );
 }
